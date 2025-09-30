@@ -25,7 +25,7 @@ app.get("/hi", (req, res) => {
 
 app.get("/bye", (req, res) => {
   const name = req.query?.name?.toString() || "Unknown";
-  res.json({ message: `Bye, ${name}` });
+  res.json({ message: `Bye2, ${name}` });
 });
 
 app.get("/debug-sentry", (req, res) => {
